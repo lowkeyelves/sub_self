@@ -176,7 +176,7 @@
         "type": "hysteria2",
         "tag": "hy2-yykx",
         "server": "47.79.146.128",
-        "server_port": 8443,
+        "server_port": 36939,
         "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
         "tls": {
             "enabled": true,
@@ -192,7 +192,7 @@
         "type": "hysteria2",
         "tag": "hy2-yykl",
         "server": "47.79.93.212",
-        "server_port": 8443,
+        "server_port": 32937,
         "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
         "tls": {
             "enabled": true,
@@ -208,7 +208,7 @@
         "type": "hysteria2",
         "tag": "hy2-diane",
         "server": "47.79.144.78",
-        "server_port": 8443,
+        "server_port": 48440,
         "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
         "tls": {
             "enabled": true,
