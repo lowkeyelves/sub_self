@@ -100,9 +100,9 @@
         "vless-s880464",
         "vmess-s880464",
         "hy2-s880464",
-        "hy2-diane",
-        "hy2-yykl",
         "hy2-yykx",
+        "hy2-yykl",
+        "hy2-diane",
         "tuic5-s880464"
       ]
     },
@@ -110,8 +110,8 @@
       "type": "vless",
       "tag": "vless-s880464",
       "server": "47.79.93.217",
-      "server_port": 63645,
-      "uuid": "f31bf43c-ab4c-470b-a477-221f0cb78e9e",
+      "server_port": 443,
+      "uuid": "98bcc46f-ec90-433f-9361-e8b189a613f6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -122,18 +122,18 @@
         },
       "reality": {
           "enabled": true,
-          "public_key": "P_wCD0335iT_DhWeFaB38wAGWCFn8jv2XjLL80TH2U4",
-          "short_id": "b357ce66"
+          "public_key": "ZOJBjjaBnCVvffPgKjwPaN4NZYlscAPVS4Vx3nWi_20",
+          "short_id": "1bef5669"
         }
       }
     },
 {
-            "server": "ai.htxdgpt.top",
+            "server": "aff.htxdgpt.top",
             "server_port": 2053,
             "tag": "vmess-s880464",
             "tls": {
                 "enabled": true,
-                "server_name": "ai.htxdgpt.top",
+                "server_name": "aff.htxdgpt.top",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -144,73 +144,55 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "ai.htxdgpt.top"
+                        "aff.htxdgpt.top"
                     ]
                 },
-                "path": "f31bf43c-ab4c-470b-a477-221f0cb78e9e-vm",
+                "path": "98bcc46f-ec90-433f-9361-e8b189a613f6-vm",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "f31bf43c-ab4c-470b-a477-221f0cb78e9e"
+            "uuid": "98bcc46f-ec90-433f-9361-e8b189a613f6"
         },
 
     {
         "type": "hysteria2",
         "tag": "hy2-s880464",
-        "server": "ai.htxdgpt.top",
-        "server_port": 14075,
-        "password": "f31bf43c-ab4c-470b-a477-221f0cb78e9e",
+        "server": "aff.htxdgpt.top",
+        "server_port": 8443,
+        "password": "98bcc46f-ec90-433f-9361-e8b189a613f6",
         "tls": {
             "enabled": true,
-            "server_name": "ai.htxdgpt.top",
+            "server_name": "aff.htxdgpt.top",
             "insecure": false,
             "alpn": [
                 "h3"
             ]
         }
     },
-
-     {
-        "type": "hysteria2",
-        "tag": "hy2-diane",
-        "server": "ktfjkdkdwjhx.ap-northeast-1.clawcloudrun.com",
-        "server_port": 48440,
-        "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
-        "tls": {
-            "enabled": true,
-            "server_name": "www.bing.com",
-            "insecure": true,
-            "alpn": [
-                "h3"
-            ]
-        }
-    },
-
-
-      {
-        "type": "hysteria2",
-        "tag": "hy2-yykl",
-        "server": "anskqnnwiwrz.ap-northeast-1.clawcloudrun.com",
-        "server_port": 32937,
-        "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
-        "tls": {
-            "enabled": true,
-            "server_name": "www.bing.com",
-            "insecure": true,
-            "alpn": [
-                "h3"
-            ]
-        }
-    },
-
-
-
-     {
+    
+    
+    {
         "type": "hysteria2",
         "tag": "hy2-yykx",
-        "server": "cpblvpmnvqri.ap-northeast-1.clawcloudrun.com",
-        "server_port": 36939,
+        "server": "47.79.146.128",
+        "server_port": 8443,
+        "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
+        "tls": {
+            "enabled": true,
+            "server_name": "www.bing.com",
+            "insecure": true,
+            "alpn": [
+                "h3"
+            ]
+        }
+    },    
+        
+    {
+        "type": "hysteria2",
+        "tag": "hy2-yykl",
+        "server": "47.79.93.212",
+        "server_port": 8443,
         "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
         "tls": {
             "enabled": true,
@@ -221,21 +203,30 @@
             ]
         }
     },
-
-
-
-
-
-
-
-
+        
+    {
+        "type": "hysteria2",
+        "tag": "hy2-diane",
+        "server": "47.79.144.78",
+        "server_port": 8443,
+        "password": "5c998ecd-2747-3e20-895d-53cbf8c60a9b",
+        "tls": {
+            "enabled": true,
+            "server_name": "www.bing.com",
+            "insecure": true,
+            "alpn": [
+                "h3"
+            ]
+        }
+    },    
+   
         {
             "type":"tuic",
             "tag": "tuic5-s880464",
-            "server": "ai.htxdgpt.top",
-            "server_port": 37809,
-            "uuid": "f31bf43c-ab4c-470b-a477-221f0cb78e9e",
-            "password": "f31bf43c-ab4c-470b-a477-221f0cb78e9e",
+            "server": "aff.htxdgpt.top",
+            "server_port": 2096,
+            "uuid": "98bcc46f-ec90-433f-9361-e8b189a613f6",
+            "password": "98bcc46f-ec90-433f-9361-e8b189a613f6",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "udp_over_stream": false,
@@ -243,7 +234,7 @@
             "heartbeat": "10s",
             "tls":{
                 "enabled": true,
-                "server_name": "ai.htxdgpt.top",
+                "server_name": "aff.htxdgpt.top",
                 "insecure": false,
                 "alpn": [
                     "h3"
@@ -261,9 +252,9 @@
         "vless-s880464",
         "vmess-s880464",
         "hy2-s880464",
-        "hy2-diane",
-        "hy2-yykl",
         "hy2-yykx",
+        "hy2-yykl",
+        "hy2-diane",
         "tuic5-s880464"
       ],
       "url": "https://www.gstatic.com/generate_204",
