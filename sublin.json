@@ -110,7 +110,7 @@
       "type": "vless",
       "tag": "vless-s880464",
       "server": "47.79.93.217",
-      "server_port": 443,
+      "server_port": 48015,
       "uuid": "98bcc46f-ec90-433f-9361-e8b189a613f6",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -159,7 +159,7 @@
         "type": "hysteria2",
         "tag": "hy2-s880464",
         "server": "aff.htxdgpt.top",
-        "server_port": 8443,
+        "server_port": 56035,
         "password": "98bcc46f-ec90-433f-9361-e8b189a613f6",
         "tls": {
             "enabled": true,
@@ -224,7 +224,7 @@
             "type":"tuic",
             "tag": "tuic5-s880464",
             "server": "aff.htxdgpt.top",
-            "server_port": 2096,
+            "server_port": 65035,
             "uuid": "98bcc46f-ec90-433f-9361-e8b189a613f6",
             "password": "98bcc46f-ec90-433f-9361-e8b189a613f6",
             "congestion_control": "bbr",
